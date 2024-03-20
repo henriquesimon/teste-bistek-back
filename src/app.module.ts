@@ -6,11 +6,11 @@ import { ProductModule } from './app/product/product.module';
   imports: [
     SequelizeModule.forRoot({
       dialect: 'postgres',
-      host: 'localhost',
-      port: 3306,
+      host: 'dpg-cnt92o779t8c73acabr0-a',
+      port: 5432,
       username: 'root',
-      password: 'admin@123',
-      database: 'teste_db',
+      password: 'BawV74UID9U1nBvWXntNTDogj2lE9Wie',
+      database: 'dev_uva9',
       logging: true,
       logQueryParameters: true,
       autoLoadModels: true,
